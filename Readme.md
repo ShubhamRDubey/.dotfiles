@@ -8,7 +8,7 @@ Feel free to explore, use, and adapt these configurations to suit your preferenc
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/dotfiles.git ~/.dotfiles
+   git clone https://github.com/ShubhamRDubey/.dotfiles.git ~/.dotfiles
     ```
 2. **Symlink configuration files**
     ```    
