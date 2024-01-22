@@ -1,4 +1,4 @@
-source personal.sh
+source ~/personal.sh
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -58,3 +58,11 @@ ex ()
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
+
+# pnpm
+export PNPM_HOME="/home/shubham/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
