@@ -1,4 +1,4 @@
-source personal.sh
+source ~/personal.sh
 
 # Lines configured by zsh-newuser-install
 
@@ -14,6 +14,10 @@ alias so='source'
 alias v='nvim .'
 alias t='tree -Lsha 2'
 alias ti='tree --gitignore -Lsha 2'
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit'
+
 
 cd() {
     builtin cd "$@" && ll
