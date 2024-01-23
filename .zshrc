@@ -30,6 +30,10 @@ alias gs='git status'
 alias ga='git add .'
 alias gc='git commit'
 
+
+
+[[ -z "$TMUX" ]] && exec tmux
+
 cd() {
     builtin cd "$@" && ll
 }
