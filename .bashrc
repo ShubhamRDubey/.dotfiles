@@ -17,6 +17,7 @@ alias ti='tree --gitignore -Lsha 2'
 alias gs='git status'
 alias ga='git add .'
 alias gc='git commit'
+alias gp='git push'
 
 [[ -z "$TMUX" ]] && exec tmux
 
